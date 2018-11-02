@@ -1,0 +1,3 @@
+<log><type>WARN</type><message>Trade amount not valid: '100'</message></log> 
+<log><type>INFO</type><message>Connecting to Database</message></log> 
+<log><type>INFO</type><message>3 trades processed</message></log> 
