@@ -1,0 +1,3 @@
+<log><type>WARN </type><message>Trade amount not valid: '999'</message></log> 
+<log><type>WARN </type><message>Trade amount not valid: '-10000'</message></log> 
+<log><type>WARN </type><message>Trade amount not valid: '1000001'</message></log> 
