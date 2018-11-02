@@ -40,6 +40,12 @@ namespace SingleResponsibilityPrinciple
                 return false;
             }
 
+            if(tradeAmount < 1000 || tradeAmount > 100000)
+            {
+                logger.LogWarning("Trade amount not valid: '{0}'", tradeData[1]);
+                return false;
+            }
+
             return true;
         }
     }
